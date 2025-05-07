@@ -11,12 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const plainUsers = [
-  { name: "hit", password: "tigger" },
-  { name: "admin", password: "computer" },
-  { name: "room", password: "family" },
-  { name: "rockman", password: "danielle" },
-  { name: "summer", password: "forever" },
-  { name: "root", password: "root" },
+  { name: "KunalRajnish", password: "iloveu" },
 ];
 
 app.post('/login', (req, res) => {
